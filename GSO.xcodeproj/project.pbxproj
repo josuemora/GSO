@@ -21,6 +21,12 @@
 		ADCEDE30197C7687002D6B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCEDE12197C7687002D6B51 /* UIKit.framework */; };
 		ADCEDE38197C7687002D6B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADCEDE36197C7687002D6B51 /* InfoPlist.strings */; };
 		ADCEDE3A197C7687002D6B51 /* GSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE39197C7687002D6B51 /* GSOTests.m */; };
+		ADCEDE45197C78BF002D6B51 /* ViewGlobales.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE44197C78BF002D6B51 /* ViewGlobales.m */; };
+		ADCEDE48197C78E6002D6B51 /* ViewSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE47197C78E6002D6B51 /* ViewSingleton.m */; };
+		ADCEDE4B197C78FF002D6B51 /* ViewObjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE4A197C78FF002D6B51 /* ViewObjectData.m */; };
+		ADCEDE4E197C7A0E002D6B51 /* ctrl_regreso.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE4D197C7A0E002D6B51 /* ctrl_regreso.m */; };
+		ADCEDE51197C952C002D6B51 /* ObjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE50197C952C002D6B51 /* ObjectData.m */; };
+		ADCEDE54197C9742002D6B51 /* Singlenton.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEDE53197C9742002D6B51 /* Singlenton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		ADCEDE35197C7687002D6B51 /* GSOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSOTests-Info.plist"; sourceTree = "<group>"; };
 		ADCEDE37197C7687002D6B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADCEDE39197C7687002D6B51 /* GSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSOTests.m; sourceTree = "<group>"; };
+		ADCEDE43197C78BF002D6B51 /* ViewGlobales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewGlobales.h; sourceTree = "<group>"; };
+		ADCEDE44197C78BF002D6B51 /* ViewGlobales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewGlobales.m; sourceTree = "<group>"; };
+		ADCEDE46197C78E5002D6B51 /* ViewSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSingleton.h; sourceTree = "<group>"; };
+		ADCEDE47197C78E6002D6B51 /* ViewSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSingleton.m; sourceTree = "<group>"; };
+		ADCEDE49197C78FF002D6B51 /* ViewObjectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewObjectData.h; sourceTree = "<group>"; };
+		ADCEDE4A197C78FF002D6B51 /* ViewObjectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewObjectData.m; sourceTree = "<group>"; };
+		ADCEDE4C197C7A0E002D6B51 /* ctrl_regreso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctrl_regreso.h; sourceTree = "<group>"; };
+		ADCEDE4D197C7A0E002D6B51 /* ctrl_regreso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ctrl_regreso.m; sourceTree = "<group>"; };
+		ADCEDE4F197C952C002D6B51 /* ObjectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectData.h; sourceTree = "<group>"; };
+		ADCEDE50197C952C002D6B51 /* ObjectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectData.m; sourceTree = "<group>"; };
+		ADCEDE52197C9742002D6B51 /* Singlenton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singlenton.h; sourceTree = "<group>"; };
+		ADCEDE53197C9742002D6B51 /* Singlenton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singlenton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +133,22 @@
 				ADCEDE1D197C7687002D6B51 /* AppDelegate.h */,
 				ADCEDE1E197C7687002D6B51 /* AppDelegate.m */,
 				ADCEDE20197C7687002D6B51 /* Main.storyboard */,
+				ADCEDE4C197C7A0E002D6B51 /* ctrl_regreso.h */,
+				ADCEDE4D197C7A0E002D6B51 /* ctrl_regreso.m */,
 				ADCEDE23197C7687002D6B51 /* ViewController.h */,
 				ADCEDE24197C7687002D6B51 /* ViewController.m */,
+				ADCEDE4F197C952C002D6B51 /* ObjectData.h */,
+				ADCEDE50197C952C002D6B51 /* ObjectData.m */,
+				ADCEDE52197C9742002D6B51 /* Singlenton.h */,
+				ADCEDE53197C9742002D6B51 /* Singlenton.m */,
 				ADCEDE26197C7687002D6B51 /* Images.xcassets */,
 				ADCEDE15197C7687002D6B51 /* Supporting Files */,
+				ADCEDE43197C78BF002D6B51 /* ViewGlobales.h */,
+				ADCEDE44197C78BF002D6B51 /* ViewGlobales.m */,
+				ADCEDE46197C78E5002D6B51 /* ViewSingleton.h */,
+				ADCEDE47197C78E6002D6B51 /* ViewSingleton.m */,
+				ADCEDE49197C78FF002D6B51 /* ViewObjectData.h */,
+				ADCEDE4A197C78FF002D6B51 /* ViewObjectData.m */,
 			);
 			path = GSO;
 			sourceTree = "<group>";
@@ -249,8 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADCEDE51197C952C002D6B51 /* ObjectData.m in Sources */,
 				ADCEDE25197C7687002D6B51 /* ViewController.m in Sources */,
+				ADCEDE45197C78BF002D6B51 /* ViewGlobales.m in Sources */,
 				ADCEDE1F197C7687002D6B51 /* AppDelegate.m in Sources */,
+				ADCEDE4B197C78FF002D6B51 /* ViewObjectData.m in Sources */,
+				ADCEDE48197C78E6002D6B51 /* ViewSingleton.m in Sources */,
+				ADCEDE4E197C7A0E002D6B51 /* ctrl_regreso.m in Sources */,
+				ADCEDE54197C9742002D6B51 /* Singlenton.m in Sources */,
 				ADCEDE1B197C7687002D6B51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

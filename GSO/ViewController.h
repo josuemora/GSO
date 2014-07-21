@@ -10,4 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *txt_valor;
+
+
+- (IBAction)btn_agregar:(id)sender;
+
+-(void)Alerta:(NSString *)titulo Mensaje:(NSString*)mensaje TextoBtnCancel:(NSString*) txtbtnCancel;
+
+
+-(IBAction)textFieldReturn:(id)sender;
+
 @end
